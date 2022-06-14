@@ -1,0 +1,13 @@
+main {
+float x = 3.2;
+int value;
+readValue = read();
+if (readValue > 10) then {
+		for (value = 1) by 10 while (value != readValue) do {
+           			 value = value + 1;
+        		}
+}
+fi;
+print(true == false);
+print (x);
+}
